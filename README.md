@@ -50,31 +50,16 @@ Figure -02 HALF Subtractor
 
 **Program:**
 
-Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
+/* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.![Screenshot 2024-11-04 212814](https://github.com/user-attachments/assets/21750d79-657e-4885-95b2-d28a4f096a3f)
 
-Developed by: SHREEDHAR KUMAR K.J
 
-RegisterNumber: 212224130265
+Developed by:Rabin.R RegisterNumber:24900518
 
-~~~
-module ex3(a,b,C,D,S,B);
-input a,b;
-output S,D,C,B;
-assign S = a^b;
-assign C = a&b;
-assign D = a^b;
-assign B = ~a&b;
-endmodule
-~~~
+**RTL Schematic**![Screenshot 2024-11-04 215859](https://github.com/user-attachments/assets/eaba47a5-84cd-4cc5-853c-de9ea644b231)
 
-**RTL Schematic**
 
-![430857693-0b804245-c3ad-423c-94b6-f4389df320e1](https://github.com/user-attachments/assets/1998abcc-dbbb-4250-940d-df56ea7b4a4a)
+**Output/TIMING Waveform**![Screenshot 2024-11-04 215755](https://github.com/user-attachments/assets/21e2729c-b7c1-4ee0-9cb2-fc1e75bb3ac2)
 
-**Output/TIMING Waveform**
 
-![430860340-5176eb55-500d-46bb-8ca2-8c4547025d98](https://github.com/user-attachments/assets/74614410-5a41-4c97-b99b-a559e39a7042)
-          
 **Result:**
- 
-Thus, the half adder and half subtractor verilog program has been sucessfully executed.
+Thus the half adder and half subtractor has been implemented and verified
